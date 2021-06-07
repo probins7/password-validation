@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/main/resources/images/password.jpg"  title="Password">
+  <img src="./src/main/resources/images/password.JPG"  title="Password">
 </p>
 
 
@@ -63,44 +63,46 @@ IsValid("AbTp9!fok") // true
 
 A API poderá ser executada localmente sendo a requisação http efetuada confome orientação abaixo, uma sugestão é faser o uso da ferramenta Postman.
 
-Para executar a API, sugiro o uso da IDE **eclipse**, e seguir algumas orientações conforme abaixo:
+Para executar a API seguir os passos abaixo, e como sugestão oriento o uso da IDE **eclipse**.
 
- 1. Importar o Projeto **password_validation** para dentro da IDE;
-
- 2. Selecionar a classe **Password_ValidationApplication** com o botão direito e clicar em: **Run As**,  em seguida selecione a opção **Java Aplication**, conforme o exemplo abaixo:
-
-<p align="center">
-  <img src="./src/main/resources/images/execute.png"  width="800" title="Eclipse">
-</p>
-
- 3. Após Start da Aplicação, Utilizar a ferramenta Postman para efetuar a requisição da API.
-
- - Exemplo da Execução: http://localhost:8080/api/login
-
+1. Importar o Projeto **password_validation** para dentro da IDE;
  <p align="center">
-  <img src="./src/main/resources/images/postman.png" width="800"  title="Postman">
+   <img src="./src/main/resources/images/import1.PNG" width="400" title="Postman">
+ </p>
+2. Selecionar Maven projects;
+ <p align="center">
+  <img src="./src/main/resources/images/import2.PNG" width="400" title="Postman">
+ </p>
+3. Selecionar a classe **Password_ValidationApplication** com o botão direito e clicar em: **Run As**,  em seguida selecione a opção **Java Aplication**, conforme o exemplo abaixo:
+<p align="center">
+  <img src="./src/main/resources/images/execute.PNG"  width="800" title="Eclipse">
 </p>
-
+ 4. Após Start da Aplicação, Utilizar a ferramenta Postman para efetuar a requisição da API.
+ 
+ - Exemplo da Execução: http://localhost:8080/api/login
+  	
+	 <p align="center">
+	  <img src="./src/main/resources/images/postman.PNG" width="800"  title="Postman">
+	 </p>
+	 
 - Observações sobre o **input** e o **output** da requisição:
-
-1. No input devará ser enviada a senha do tipo (String), passando-a no formato Json através do corpo da requisição.
-
+ 	
+- No input devará ser enviada a senha do tipo (String), passando-a no formato Json através do corpo da requisição.
+ 
 ```java
 // Request da Requisição no formato Json.
 ```
-
 ```Json
 {
 "password":"AbTp9 fok"
 }
 ```
 
-2.  Para a área de saída é esperado um valor do tipo boolean indicando se a senha é ou não válida.
+- Para a área de saída é esperado um valor do tipo boolean indicando se a senha é ou não válida.
 
 ```java
 // Response da Requisição no formato boolean.
 ```
-
 ```java
 false
 ```
