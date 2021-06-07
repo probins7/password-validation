@@ -78,18 +78,17 @@ Para executar a API seguir os passos abaixo, e como sugestão oriento o uso da I
 3. Selecionar a classe **Password_ValidationApplication** com o botão direito e clicar em: **Run As**,  em seguida selecione a opção **Java Aplication**, conforme o exemplo abaixo
 <p align="center"><img src="./src/main/resources/images/execute.PNG"  width="800" title="Eclipse"></p>
  
- 4. Após Start da Aplicação, Utilizar a ferramenta Postman para efetuar a requisição conforme URL: http://localhost:8080/api/login
+4. Após Start da Aplicação, Utilizar a ferramenta Postman para efetuar a requisição conforme URL: http://localhost:8080/api/login
   	<p align="center">
 	  <img src="./src/main/resources/images/postman.PNG" width="800"  title="Postman">
 	 </p>
 	 
-- Observações sobre o **input** e o **output** da requisição:
- 	
-- No input devará ser enviada a senha do tipo (String), passando-a no formato Json através do corpo da requisição.
- 
+5. No input devará ser enviada a senha do tipo (String), passando-a no formato Json através do corpo da requisição.
+
 ```java
 // Request da Requisição no formato Json.
 ```
+
 ```Json
 {
 "password":"AbTp9 fok"
