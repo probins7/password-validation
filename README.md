@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="../apirest/src/main/resources/images/password.png"  title="Password">
+  <img src="../password_validation/src/main/resources/images/password.png"  title="Password">
 </p>
 
 
 ## Sobre
 
-O projeto **ApiRest** expõe uma api web que valida se uma senha é válida.
+O projeto **password-validation** expõe uma api web que valida se uma senha é válida.
 
 
 
@@ -14,13 +14,21 @@ O projeto **ApiRest** expõe uma api web que valida se uma senha é válida.
 O projeto foi desenvolvido, utilizando as seguintes tecnologias.
 <p>
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
+<p>
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.5.0/maven-plugin/reference/html/)
+<p>
 * [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.5.0/maven-plugin/reference/html/#build-image)
+<p>
 * [Spring Web](https://docs.spring.io/spring-boot/docs/2.5.0/reference/htmlsingle/#boot-features-developing-web-applications)
+<p>
 * [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/2.5.0/reference/htmlsingle/#using-boot-devtools)
+<p>
 * [Regex](https://regexr.com/)
+<p>
 * [Postman](https://www.postman.com/downloads/)
+<p>
 * [Eclipse](https://www.eclipse.org/downloads/packages/release/2021-03)
+<p>
 
 ## Como baixar o projeto
 
@@ -65,15 +73,15 @@ A API poderá ser executada localmente sendo a requisação http efetuada confom
 <p>
 Para executar a API, você podera importá-la para dentro de uma IDE **eclipse** e seguir algumas orientações conforme abaixo:
 <p>
- 1. Importar o Projeto apiRest para dentro da sua IDE;
+ 1. Importar o Projeto password_validation para dentro da sua IDE;
  <p>
- 2. Executar a classe **ApirestApplication**, localizada no pacote **com.backendchallenge.apirest**, ela contém o método **main** que inicia a a aplicação web.
+ 2. Executar a classe **password_validationApplication**, localizada no pacote **com.backendchallenge.apirest**, ela contém o método **main** que inicia a a aplicação web.
  <p>
 
  - Exemplo da Execução:
 <p>
 <p align="center">
-  <img src="../apirest/src/main/resources/images/execute.png"  width="800" title="Eclipse">
+  <img src="../password_validation/src/main/resources/images/execute.png"  width="800" title="Eclipse">
 </p>
 
 <p>
@@ -83,7 +91,7 @@ Para executar a API, você podera importá-la para dentro de uma IDE **eclipse**
 
 
  <p align="center">
-  <img src="../apirest/src/main/resources/images/postman.png" width="800"  title="Postman">
+  <img src="../password_validation/src/main/resources/images/postman.png" width="800"  title="Postman">
 </p>
 
 - Observações sobre o INPUT E OUTPUT da chamada:
