@@ -1,7 +1,6 @@
 package com.backendchallenge.password_validation;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -12,7 +11,7 @@ import com.backendchallenge.password_validation.models.User;
 import com.backendchallenge.password_validation.resources.ExecuteApi;
 
 @SpringBootTest
-class ApirestApplicationTests {
+class Password_ValidationApplicationTests {
 
 	@Autowired
 	ExecuteApi executeApiRest;
