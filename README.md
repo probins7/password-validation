@@ -36,13 +36,8 @@ $ git clone https://github.com/probins7/password_validation.git
 - Foi utilizado o **Maven** que é um gerenciador de build e dependências baseado no conceito de project object model (POM). Traduzindo, ele permite configurar as dependências dos projetos apontando para os identificadores das mesmas num arquivo chamado pom.
 - Para atender as premissas de validação de senha, utilizei-me da implementação de uma **expressão regular**, ou **Regex**, são padrões utilizados para identificar determinadas combinações ou cadeias de caracteres em uma string.
 
-```
-// Validação da Regex 
-// Informa se esta string corresponde ou não à expressão regular fornecida.
-// Uma invocação deste método da forma str.matches (regex) produz exatamente o mesmo resultado da expressão.
-```
-
 ```java
+// Sintaxe para validação da Regex 
 boolean java.lang.String.matches (String regex)
 ```
 
@@ -58,6 +53,20 @@ IsValid("AbTp9!foA") // false
 IsValid("AbTp9 fok") // false
 IsValid("AbTp9!fok") // true
 ```
+
+### Testes Unitários | Integrados.
+
+- Para execução dos testes unitários, optei por utilizar a anotação **@SpringBootTest**. Seu mecanismo de funcionamento diz ao Spring Boot para ir e procurar por uma classe de configuração principal (uma com @SpringBootApplication por exemplo), sendo usado para fornecer uma ponte entre os recursos de teste do Spring Boot e o JUnit. Sempre que estivermos usando qualquer recurso de teste do Spring Boot em nossos testes JUnit, essa anotação será necessária. A anotação @SpringBootTest pode ser usada quando precisamos inicializar o container inteiro.
+- Para execução dos testes de retorno da API, injetei uma dependencia através da anotação @Autowired que permite vincular as classes de execução ao ambiente de testes.
+
+---
+
+* Resultado da Cobertura de Testes
+
+<p align="center">
+   <img src="./src/main/resources/images/unitTests.PNG" width="800" title="Postman">
+ </p>
+
 
 ### Detalhes sobre a execução
 
