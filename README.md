@@ -5,7 +5,7 @@
 
 ### Sobre
 
-O projeto **password-validation** expõe uma api web que valida se uma senha é válida.
+O projeto **password_validation** expõe uma api web que valida se uma senha é válida.
 
 ### Tecnologias
 
@@ -56,7 +56,7 @@ IsValid("AbTp9!fok") // true
 
 ### Testes Unitários | Integrados.
 
-- Para execução dos testes unitários, optei por utilizar a anotação **@SpringBootTest**. Seu mecanismo de funcionamento diz ao Spring Boot para ir e procurar por uma classe de configuração principal (uma com @SpringBootApplication por exemplo), sendo usado para fornecer uma ponte entre os recursos de teste do Spring Boot e o JUnit. Sempre que estivermos usando qualquer recurso de teste do Spring Boot em nossos testes JUnit, essa anotação será necessária. A anotação @SpringBootTest pode ser usada quando precisamos inicializar o container inteiro.
+- Para execução dos testes unitários, optei por utilizar a anotação **@SpringBootTest**. Seu mecanismo de funcionamento diz ao Spring Boot para ir e procurar por uma classe de configuração principal (uma com @SpringBootApplication por exemplo), sendo usado para fornecer uma ponte entre os recursos de teste do **Spring Boot** e o **JUnit**. Sempre que estivermos usando qualquer recurso de teste do Spring Boot em nossos testes **JUnit**, essa anotação será necessária. A anotação @SpringBootTest pode ser usada quando precisamos inicializar o container inteiro.
 - Para execução dos testes de retorno da API, injetei uma dependencia através da anotação @Autowired que permite vincular as classes de execução ao ambiente de testes.
 
 ---
