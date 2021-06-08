@@ -27,7 +27,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias.
 
 ```bash
 # Clonar repositório
-$ git clone https://github.com/probins7/password-validation.git
+$ git clone https://github.com/probins7/password_validation.git
 ```
 
 ### Detalhes sobre a solução
@@ -95,7 +95,7 @@ Para executar a API seguir os passos abaixo, e como sugestão oriento o uso da I
 }
 ```
 
-- Para a área de saída é esperado um valor do tipo boolean indicando se a senha é ou não válida.
+-https://github.com/probins7/password_validation.git Para a área de saída é esperado um valor do tipo boolean indicando se a senha é ou não válida.
 
 ```java
 // Response da Requisição no formato boolean.
